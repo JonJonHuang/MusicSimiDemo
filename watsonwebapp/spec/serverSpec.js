@@ -7,7 +7,7 @@ describe('Server', function() {
     var successMessageRegex = /Listening on port: ([0-9]{1,5})/;
     var subprocess;
     var data;
-    beforeEach(function(done) {
+    beforeAll(function(done) {
         subprocess = childProcess.fork('bin/www', [], {stdio: 'pipe'});
         var setData = function(chunk) {
             data = chunk.toString();
@@ -36,7 +36,7 @@ describe('Server', function() {
         });
     });
 
-    afterEach(function(done) {
+    afterAll(function(done) {
         subprocess.kill();
         done();
     });

@@ -1,0 +1,51 @@
+{
+  "name": "watsonspeedfriending",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run react",
+    "react": "cd ./watsonwebapp/client && cross-env PORT=3001 react-scripts start",
+    "build-react": "react-scripts build",
+    "test-react": "react-scripts test",
+    "eject-react": "react-scripts eject",
+    "backend": "node ./watsonwebapp/server/app.js",
+    "test-backend": "node ./watsonwebapp/spec/specRunner.js",
+    "dbon": "mongod -dbpath ./data/db"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jasmine": "^3.2.0",
+    "mongoose": "^5.3.6",
+    "morgan": "~1.9.0",
+    "nodemailer": "^4.6.8",
+    "pug": "2.0.0-beta11",
+    "react": "^16.6.0",
+    "react-dom": "^16.5.2",
+    "react-pose": "^3.3.7",
+    "react-scripts": "2.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "smtp-server": "^3.4.7",
+    "watson-developer-cloud": "^3.11.1"
+  },
+  "proxy": "http://localhost:3000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jasmine-ajax": "^3.4.0"
+  }
+}

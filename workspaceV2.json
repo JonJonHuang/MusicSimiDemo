@@ -1,0 +1,2038 @@
+{
+  "name": "WatsonSpeedDuoing",
+  "intents": [
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "How can you help me?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "find_roomate",
+      "examples": [
+        {
+          "text": "I need a fourth for my apartment."
+        },
+        {
+          "text": "I want to find a roomate."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "What's new?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "gaming_partner",
+      "examples": [
+        {
+          "text": "I need another gamer."
+        },
+        {
+          "text": "I need someone to climb the ladder with."
+        },
+        {
+          "text": "I want someone to play with."
+        },
+        {
+          "text": "I want to find a gaming partner."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Are you human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "I want a joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "numFriends",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "small group",
+          "synonyms": [
+            "close-knit",
+            "few close friends",
+            "some friends",
+            "not too many friends",
+            "a couple of friends"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "big circle",
+          "synonyms": [
+            "larger circle of friends",
+            "many friends",
+            "a lot of friends",
+            "large circle"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "social",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "stay inside",
+          "synonyms": [
+            "stay at home"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "go out",
+          "synonyms": [
+            "party",
+            "going to the club",
+            "partying"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "assemble",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "follow the manual",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "figure it out myself",
+          "synonyms": [
+            "assemble on the fly"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "assignments",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "start early",
+          "synonyms": [
+            "on time"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "procrastinate",
+          "synonyms": [
+            "wait until last minute"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fpsrole",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "attacker",
+          "synonyms": [
+            "close-range"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sniper",
+          "synonyms": [
+            "long-range"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "language",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hindi",
+          "synonyms": [
+            "indian"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "english",
+          "synonyms": [
+            "englando"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chinese",
+          "synonyms": [
+            "mandarin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "french",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "german",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "italian",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "role",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "carry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "support",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tank",
+          "synonyms": [
+            "bruiser"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "jungler",
+          "synonyms": [
+            "ganker",
+            "jungle"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "seriousness",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "casual",
+          "synonyms": [
+            "laid-back",
+            "chill"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hardcore",
+          "synonyms": [
+            "serious",
+            "intense",
+            "tryhard"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "decisions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "instinct",
+          "synonyms": [
+            "gut feeling"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reasoning",
+          "synonyms": [
+            "logic"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "time",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "afternoon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "morning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "evening",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "late-night",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "rpgrole",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "archer",
+          "synonyms": [
+            "ranger"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mage",
+          "synonyms": [
+            "wizard",
+            "warlock"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "warrior",
+          "synonyms": [
+            "fighter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "priest",
+          "synonyms": [
+            "healer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mercyorjustice",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "justice",
+          "synonyms": [
+            "punish",
+            "no mercy",
+            "fairness",
+            "discipline",
+            "penalize"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mercy",
+          "synonyms": [
+            "second chance",
+            "forgiveness",
+            "compassion"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fps",
+          "synonyms": [
+            "shooter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rpg",
+          "synonyms": [
+            "role-playing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "moba",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1540477278940",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1540477278940"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1541711740195",
+      "previous_sibling": "node_14_1540480224070"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1540477278940",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1540477337744"
+      },
+      "conditions": "@decisions",
+      "dialog_node": "node_14_1540480224070"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1540480684616",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_16_1540480684616"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1541712749287",
+      "previous_sibling": "node_1_1537471336586"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What kind of role do you play?"
+              },
+              {
+                "text": "What class of heroes do you usually go for?"
+              },
+              {
+                "text": "What's your main role?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Tank",
+                "value": {
+                  "input": {
+                    "text": "tank"
+                  }
+                }
+              },
+              {
+                "label": "Carry",
+                "value": {
+                  "input": {
+                    "text": "carry"
+                  }
+                }
+              },
+              {
+                "label": "Support",
+                "value": {
+                  "input": {
+                    "text": "support"
+                  }
+                }
+              },
+              {
+                "label": "Jungler",
+                "value": {
+                  "input": {
+                    "text": "jungle"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_16_1540480684616",
+      "metadata": {},
+      "conditions": "@genre:moba",
+      "dialog_node": "node_1_1537471336586"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1537989904193",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1537989904193"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1541712540763",
+      "previous_sibling": "node_1_1538012981089"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1537989904193",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1536799992458"
+      },
+      "conditions": "@language",
+      "dialog_node": "node_1_1538012981089"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1537478054612",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1537478054612"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1541712441444",
+      "previous_sibling": "node_2_1538013189206"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1537478054612",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1537980597477"
+      },
+      "conditions": "@seriousness",
+      "dialog_node": "node_2_1538013189206"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1537471478586",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1537471478586"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1541712175331",
+      "previous_sibling": "node_1_1538030322272"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1537471478586",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1537478054612"
+      },
+      "conditions": "@fpsrole",
+      "dialog_node": "node_1_1538030322272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi! How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536799766528",
+      "metadata": {},
+      "dialog_node": "node_7_1536865889049",
+      "previous_sibling": "node_8_1536865908775"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good day to you, $username!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1536799766528",
+      "metadata": {},
+      "conditions": "$username",
+      "dialog_node": "node_8_1536865908775"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm not sure what you're saying."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1540479195755",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1536869034435"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1540675238948"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1540477421241",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1540477421241"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1541711844368",
+      "previous_sibling": "node_16_1540480684616"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. What kind of games do you play?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1540477421241",
+      "metadata": {},
+      "conditions": "@mercyorjustice",
+      "dialog_node": "node_16_1540480684616"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540477184334",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1540477184334"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1541711695422",
+      "previous_sibling": "node_13_1540480129274"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540477184334",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1540477278940"
+      },
+      "conditions": "@assemble",
+      "dialog_node": "node_13_1540480129274"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1540477337744",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1540477337744"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1541711797130",
+      "previous_sibling": "node_15_1540480482113"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1540477337744",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1540477421241"
+      },
+      "conditions": "@assignments",
+      "dialog_node": "node_15_1540480482113"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1537980597477",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1537980597477"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1541712480562",
+      "previous_sibling": "node_4_1538015371436"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1537980597477",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1537989904193"
+      },
+      "conditions": "@time",
+      "dialog_node": "node_4_1538015371436"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1537471786475",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1537471786475"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1541712330147",
+      "previous_sibling": "node_2_1538032591144"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1537471786475",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1537478054612"
+      },
+      "conditions": "@rpgrole",
+      "dialog_node": "node_2_1538032591144"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1537471336586",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1537478054612"
+      },
+      "conditions": "@role",
+      "dialog_node": "node_3_1537992452504"
+    },
+    {
+      "type": "standard",
+      "title": "Assignments",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How quickly do you get your assignments done?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_9_1540477337744",
+      "previous_sibling": "node_8_1540477278940"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "I'm not sure what you meant by that. I'll ask again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1536869034435"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1541711231461",
+      "previous_sibling": "node_1_1537989904193"
+    },
+    {
+      "type": "standard",
+      "title": "Time of Day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When do you normally like to play?"
+              },
+              {
+                "text": "What time do you prefer to game?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_1_1537980597477",
+      "previous_sibling": "node_4_1537478054612"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright, what kind of character do you like to play?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "conditions": "@genre:rpg",
+      "dialog_node": "node_3_1537471786475",
+      "previous_sibling": "node_2_1537471478586"
+    },
+    {
+      "type": "standard",
+      "title": "How many friends",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you rather have a few close friends or a larger circle of friends?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "conditions": "@social",
+      "dialog_node": "node_6_1540477072092",
+      "previous_sibling": "node_11_1540479195755"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What kind of FPS player are you?"
+              },
+              {
+                "text": "What is your playstyle for FPS games?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "conditions": "@genre:fps",
+      "dialog_node": "node_2_1537471478586",
+      "previous_sibling": "node_10_1540477421241"
+    },
+    {
+      "type": "standard",
+      "title": "Decisions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you make decisions based on reasoning or your gut feeling?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_8_1540477278940",
+      "previous_sibling": "node_7_1540477184334"
+    },
+    {
+      "type": "standard",
+      "title": "Mercy or Justice",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you believe more in mercy or justice?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_10_1540477421241",
+      "previous_sibling": "node_9_1540477337744"
+    },
+    {
+      "type": "standard",
+      "title": "Language",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What language do you primarily speak?"
+              },
+              {
+                "text": "What language do you prefer to communicate in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_1_1537989904193",
+      "previous_sibling": "node_1_1537980597477"
+    },
+    {
+      "type": "standard",
+      "title": "Commitment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. How serious of a gamer are you?"
+              },
+              {
+                "text": "Do you consider yourself a more hardcore or casual gamer? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_4_1537478054612",
+      "previous_sibling": "node_3_1537471786475"
+    },
+    {
+      "type": "standard",
+      "title": "Assemble",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you had to assemble something, how would you approach it (strictly use manual/figure it out yourself)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "dialog_node": "node_7_1540477184334",
+      "previous_sibling": "node_6_1540477072092"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1536869034435",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1540477072092"
+      },
+      "conditions": "@social",
+      "dialog_node": "node_11_1540479195755"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "dialog_node": "node_2_1536864149493"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You suck I'm asking this question again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1540477072092",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1540477072092"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1541711595684",
+      "previous_sibling": "node_12_1540479695793"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1540477072092",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1540477184334"
+      },
+      "conditions": "@numFriends",
+      "dialog_node": "node_12_1540479695793"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1536799992458"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright. I'll ask general questions to gauge your personality. First, what are you more likely to do on a Friday night? "
+              },
+              {
+                "text": "Ok. I'm going to ask some general questions first. First, are you more likely to stay \ninside or go out on a Friday night?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#gaming_partner",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1536869034435",
+      "previous_sibling": "node_1_1536799766528"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, thanks for answering these questions!"
+              },
+              {
+                "text": "Cool, I'll take your responses and look for someone to match!"
+              },
+              {
+                "text": "Got it! I'll let you know if I find someone!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_2_1536799992458",
+      "previous_sibling": "node_1_1536869034435"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1536799766528",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to Watson Speed Friending!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "9cc07323-047a-4ad5-894f-4052532d8e8a",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

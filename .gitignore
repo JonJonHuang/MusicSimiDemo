@@ -1,0 +1,5 @@
+/data/db/**
+/watsonwebapp/node_modules/**
+/watsonwebapp/client/node_modules/**
+/.vscode/**
+/node_modules/**
